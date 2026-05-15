@@ -13,6 +13,9 @@ find_package(SFML 3 COMPONENTS Graphics Window System REQUIRED)
 
 add_executable(ideal_pancake
     src/main.cpp
+    src/core/Game.cpp
+    src/scenes/MainMenuScene.cpp
+    src/scenes/InterrogationRoom.cpp
 )
 
 target_link_libraries(ideal_pancake
